@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@100;200;300;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+
+.body{
+    background-color: #E5E5E5;
+}
+
+/* NAV */
+.logo{
+    background-color: #164C81;    
+    width: 1440px;
+    height: 106px;
+}
+
+/*NAV*/
+.precato-logo{  
+    position: absolute;  
+    width: 170px;
+    height: 30px;
+    top: 32px;
+    left: 64px;
+}
+
+/*INICIO DA PARTE EM VÍDEO*/
+.texto1{
+    text-align: center;
+    margin-top: 96px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: #18191F;
+}
+
+.video{
+    text-align: center;
+    margin-top: 62px;    
+}
+
+.botao-centro{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.btn{
+    background-color:#0D75DB;
+    border-radius: 6px;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    align-items: center;
+    padding: 12px 32px;
+    width: 624px;
+    height: 73px;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+/*FIM DA PARTE EM VÍDEO*/
+.btn:hover{
+    background: none;
+    border-radius: 6px;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    color: #0D75DB;
+    border: 2px solid #0D75DB;
+    align-items: center;
+    padding: 12px 32px;
+    width: 624px;
+    height: 73px;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+/*INICIO DO PRIMEIRO TEXTO*/
+.texto2-fundo{
+    width: 1440px;
+    height: 478px;
+    left: 0px;
+    margin-top: 55px;
+    background: #F5F5F5;
+}
+
+/*FIM DO PRIMEIRO TEXTO*/
+.texto2{   
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 36px;
+    padding: 15px 40px;
+}
+
+/*INICIO DO "COMO FUNCIONA"*/
+.como-funciona{
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+    margin-top: 146.01px;
+}
+
+.img-como-funciona{
+    width: 483px;
+    height: 900px;
+    margin-left: 180px;
+}
+
+.margin-left{
+    position: absolute;    
+    top: 1454px;
+    margin-left: 600px;
+    margin-bottom: 50px;
+}
+
+#tit-como-funciona{
+    font-family: 'Poppins', sans-serif;
+    line-height: 54px;
+    font-size: 40px;
+    font-weight: 800;
+    color: #18191F;
+    height: 54px;
+    width: max-content;
+    line-height: 32px;
+}
+
+.passo1{
+    margin-top: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #164C81;    
+}
+
+.passos-texto{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #18191F;
+    width: 350px; 
+}
+
+.passos{
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #164C81;
+    width: max-content;  
+}
+
+.btn-rec-proposta{
+    position: absolute;
+    background-color:#0D75DB;
+    border-radius: 6px;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    align-items: center;
+    padding: 12px 32px;
+    width: 275px;
+    height: 25px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.botao-inicio{
+    text-align: initial;
+    margin-top: 50px;
+}
+
+
+/*FIM DO "COMO FUNCIONA"*/
+.btn-rec-proposta:hover{
+    position: absolute;
+    background: none;
+    border-radius: 6px;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    color: #0D75DB;
+    border: 2px solid #0D75DB;
+    align-items: center;
+    padding: 12px 32px;
+    width: 275px;
+    height: 25px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/*INICIO DAS CITAÇÕES DOS CLIENTES*/
+.baloes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;      
+}
+
+.balao1{
+    padding: 60px;
+    background-color: #DFEFFF;
+    border-radius: 45px;
+    position: relative;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
+.balao1::after{
+    content: "";
+    width: 25px;
+    height: 25px;
+    display: block;
+    position: absolute;
+    top: 325px;
+    left: 50px;
+    background-color: #DFEFFF;
+    border: 2px solid;
+    border-color: transparent #DFEFFF #DFEFFF transparent;
+    transform: rotate(45deg);
+}
+
+.balao2{
+    padding: 60px;
+    background-color: #DFEFFF;
+    border-radius: 45px;
+    position: relative;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
+.balao2::after{
+    content: "";
+    width: 25px;
+    height: 25px;
+    display: block;
+    position: absolute;
+    top: 357px;
+    left: 50px;
+    background-color: #DFEFFF;
+    border: 2px solid;
+    border-color: transparent #DFEFFF #DFEFFF transparent;
+    transform: rotate(45deg);
+}
+
+.nome{
+    color: #0B271D;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.015em;
+}
+
+.logo-localizacao{
+    position: absolute;
+    line-height: 185%;
+    width: 35px;
+    height: 35px;
+    left: 50px;
+   
+}
+
+.localizacao{
+    position: absolute;
+    left: 90px;
+    line-height: 185%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #0B271D;
+    margin-top: 5px;
+}
+
+.aspas{
+    position: absolute;
+    padding: 20px;
+    left: 1.79%;
+    right: 84.34%;
+    top: 34%;
+    bottom: 63.21%;
+}
+
+.texto-pessoa{
+    margin-top: 50px;
+    margin-left: 20px;
+    color: #0B271D;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.margin-top{
+    margin-top: 50px;
+}
+
+.margin-top2{
+    margin-top: 60px;
+}
+
+.pessoa1{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: -10%;
+    right: 5%;
+}
+
+.titulo1{
+    margin-top: 128px;
+    margin-bottom: 91px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 54px;
+    margin-left: 200px;
+}
+
+/*FIM DAS CITAÇÕES DOS CLIENTES*/
+.cor-fundo{
+    position: absolute;
+    background-color: #F5F5F5;
+}
+
+/*INICIO DAS "PERGUNTAS FREQUENTES"*/
+.cor-fundo2{
+    background-color: #2EC5CE;
+    margin-top: 1235px;
+}
+
+.titulo2{
+    padding-top: 118px;
+    margin-left: 110px;
+    margin-bottom: 68px;
+    color: #18191F;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cor-fundo3{    
+    background-color: #F6F6F6;
+    width: 1140px;
+    height: 206px;
+    box-shadow: 2px 2px 10px 2px #CCCCCC;
+    border-radius: 15px;
+    margin-bottom: 32px;
+}
+
+.pergunta{
+    margin-top: 22px;
+    margin-left: 10px;
+    color: #112F23;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+}
+
+.texto3{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    color: #0B271D;
+}
+
+/*FIM DAS "PERGUNTAS FREQUENTES"*/
+.cor-fundo4{
+    background-color: #F6F6F6;
+    width: 1140px;
+    height: 147px;
+    box-shadow: 2px 2px 10px 2px #CCCCCC;
+    border-radius: 15px;
+    margin-bottom: 32px;
+}
+
+/*INICIO DOS "MAIORES ESPECIALISTAS DO BRASIL"*/
+.titulo3{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 54px;
+    color: #18191F;
+    margin-left: 100px;
+    margin-top: 84px;
+}
+
+.divisoria{
+    width: 274px;
+    height: 13px;
+    background-color: #64B2FF;
+    margin-left: 63px;
+}
+
+.flex2{
+    display: inline-block;
+}
+
+.pessoa5{
+    width: 602px;
+    height: 762px;
+}
+
+.margin-left2{
+    position: absolute;
+    top: 5600px;
+    margin-bottom: 50px;
+    margin-left: 600px;;
+}
+
+.texto4{
+    width: 550px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+    color: #18191F;
+    margin-bottom: 22px;
+}
+
+.pagamentos-garantidos{
+    width: 276.94px;
+    height: 262.07px;
+    margin-left: 250px;
+    margin-top: 40px;
+}
+
+/*FIM DOS "MAIORES ESPECIALISTAS DO BRASIL"*/
+.texto5{
+    position: absolute;
+    margin-top: 250px;
+    right: 250px;
+    width: 200px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+/*INICIO DO FOOTER*/
+.footer{
+    width: 1440px;
+    height: 140px;
+    background-color: #000000;
+}
+
+.footer-centro{    
+    text-align: center;
+}
+
+.instagram{
+    padding: 40px 0px 0px 0px;
+    width: 49px;
+    height: 49px;
+}
+
+.linkedin{
+    padding: 40px 5px 0px 5px;
+    width: 49px;
+    height: 49px;
+}
+
+/*FIM DO FOOTER*/
+.facebook{
+    padding: 40px 0px 0px 0px;
+    width: 49px;
+    height: 49px;
+}
+
+
+
+
